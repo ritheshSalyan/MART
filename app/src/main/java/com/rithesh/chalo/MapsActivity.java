@@ -209,7 +209,7 @@ public class MapsActivity extends Fragment implements OnMapReadyCallback {
         // Sensor enabled
         String sensor = "sensor=false";
 
-        String key = "key=AIzaSyAVgPo7Q1Qpe0LrdF1DNEusnrAitc0KVZk";
+        String key = "key=YOUR_API_KEY";
         // Building the parameters to the web service
         String parameters = str_origin + "&" + str_dest + "&" + sensor+"&"+key;
 
